@@ -429,7 +429,7 @@ footer {
 @media (max-width: 768px) {
 
   .hero-banner {
-    height: 80vh;
+    height: 65vh;
     background-position: center top; 
     background-size: contain; 
   }
