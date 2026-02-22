@@ -430,8 +430,8 @@ footer {
 
   .hero-banner {
     height: 65vh;
-    background-position: center top; 
-    background-size: contain; 
+    background-position: center ; 
+    background-size: cover; 
   }
 
   .hero-text h1 {
