@@ -358,6 +358,7 @@ footer {
   color: #918989;
   text-align: center;
   padding: 40px 0;
+  font-size: 14px;
 }
 .a:hover{
   color: #cb6d41;
@@ -372,7 +373,6 @@ footer {
   }
 }
 @media (max-width: 768px) {
-  .about-container,
   .projects-row,
   .contact-location-wrap {
     grid-template-columns: 1fr;
@@ -386,22 +386,60 @@ footer {
   .hero-text h1 {
     font-size: 30px;
   }
-  .about-text,
-  .about-left {
-    text-align: center;
-    align-items: center;
-  }
-  .about-stats {
-    flex-direction: column;
-    gap: 15px;
-  }
   .stat-box {
-    width: 100%;
-  }
-  .about-btn {
     width: 100%;
   }
   .section-title {
     text-align: center;
   }
+}
+@media (max-width: 768px) {
+
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-text {
+    text-align: center; 
+    align-items: center;
+  }
+
+  .about-text p {
+    max-width: 100%;
+  }
+
+  .about-left {
+    align-items: center;
+    width: 100%;
+  }
+
+  .about-stats {
+    justify-content: center; 
+  }
+
+  .stat-box {
+    padding: 20px 10px;
+  }
+
+  .about-btn {
+    max-width: 300px;
+  }
+}
+@media (max-width: 768px) {
+
+  .hero-banner {
+    height: 80vh;
+    background-position: center top; 
+    background-size: contain; 
+  }
+
+  .hero-text h1 {
+    font-size: 28px; 
+  }
+
+  .subtitle {
+    font-size: 16px; 
+  }
+
 }
